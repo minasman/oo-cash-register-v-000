@@ -1,1 +1,15 @@
 
+class CashRegister
+  attr_accessor = :total
+  attr_reader = :discount
+  
+  def initialize(discount = 0)
+    @total = 0
+    @discount = discount
+  end
+  
+  def cash_register_with_discount
+    @discount
+  end
+  
+end 
