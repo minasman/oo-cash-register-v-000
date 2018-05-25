@@ -12,4 +12,8 @@ class CashRegister
     @discount
   end
   
+  def total 
+    @total
+  end
+  
 end 
