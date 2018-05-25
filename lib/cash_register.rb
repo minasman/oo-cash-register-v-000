@@ -11,7 +11,7 @@ class CashRegister
     @discount
   end
   
-  def total(total)
+  def total=(total)
     @total = total
   end
   
