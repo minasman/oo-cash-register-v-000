@@ -16,4 +16,8 @@ class CashRegister
     @total
   end
   
+  def total(total)
+    @total = total
+  end
+  
 end 
